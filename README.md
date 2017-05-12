@@ -1,4 +1,5 @@
 
+# What is this?
 
 A seed project to use typescript for "normal" scripting (munging text and files) 
 with a visual studio environment and the node.js libraries.
@@ -10,7 +11,7 @@ with a visual studio environment and the node.js libraries.
 * Platform independent 
 
 
-# What is the point of this?
+# What is the point?
 
 You may already know about one or more of node.js, typescript and visual studio code. Once they are working they form a very powerful partnership but getting them all up and running together is still surprisingly tricky. This seed project gives you what you need to start writing and debugging conventional file processing applications without all the web framework distractions. 
 
