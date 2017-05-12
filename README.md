@@ -1,6 +1,7 @@
 
 
-A seed project to use typescript for "normal" scripting (munging text and files)with a visual studio environment and the node.js libraries.
+A seed project to use typescript for "normal" scripting (munging text and files) 
+with a visual studio environment and the node.js libraries.
 
 
 * No back end stuff 
@@ -11,7 +12,7 @@ A seed project to use typescript for "normal" scripting (munging text and files)
 
 # What is the point of this?
 
-You may already know about one or more of node.js, typescript and visual studio code. Once they are working they form a very powerful partnership but getting them all up and running together is still surprisingly tricky. This seed project gives you what you need to write conventional file processing applications without all the web framework distractions. 
+You may already know about one or more of node.js, typescript and visual studio code. Once they are working they form a very powerful partnership but getting them all up and running together is still surprisingly tricky. This seed project gives you what you need to start writing and debugging conventional file processing applications without all the web framework distractions. 
 
 The demo program just reads a file and creates a list of objects.
 
