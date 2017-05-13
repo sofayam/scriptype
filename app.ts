@@ -24,7 +24,7 @@ textLines.forEach(line => {
 });
 
 objLines.forEach(obj => {
-    console.log(obj.description())
+    console.log(obj.numbered())
 })
 
 

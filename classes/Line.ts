@@ -1,4 +1,4 @@
-
+import * as _ from "lodash";
 
 export class Line {
 
@@ -11,8 +11,13 @@ export class Line {
         Line.counter += 1;
     }  
     
-    description() : string {
-        return this.count + ":" + this.line 
+    static addLeadZeros (i : number): string {
+        var padCount =  Line.counter.toString().length
+        return _.padStart(i.toString(), padCount, "0")
+    }
+
+    numbered() : string {
+        return Line.addLeadZeros(this.count) + ":" + this.line 
     }  
 }
 
