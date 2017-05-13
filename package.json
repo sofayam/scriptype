@@ -6,12 +6,9 @@
     "start": "node ./generated/app"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.64",
-    "@types/node": "^7.0.18",
-    "lodash": "^4.17.4",
-    "node": "0.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^7.0.18"
+    "@types/lodash": "*",
+    "@types/node": "*",
+    "lodash": "*",
+    "node": "*"
   }
 }
