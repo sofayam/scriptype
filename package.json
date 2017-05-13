@@ -8,7 +8,6 @@
   "dependencies": {
     "@types/lodash": "*",
     "@types/node": "*",
-    "lodash": "*",
-    "node": "*"
+    "lodash": "*"
   }
 }
