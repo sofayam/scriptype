@@ -5,7 +5,12 @@ import { Line } from "./classes/Line"
 
 var objLines : Line[] = [];
 
-var fname = path.join(process.env.PWD, "data", "input.txt") 
+var fname : string;
+if (process.argv.length > 2) {
+    fname = process.argv[2]
+} else {
+    fname = path.join(__dirname, "..", "data", "input.txt") 
+}
 
 var fbuff = fs.readFileSync(fname)
 
