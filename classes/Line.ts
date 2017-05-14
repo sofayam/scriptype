@@ -4,7 +4,11 @@ export class Line {
 
     static counter = 0;
 
+    static padCount: number;
+
     count = 0;
+
+    
 
     constructor (public line: string) {
         this.count = Line.counter;
@@ -12,8 +16,10 @@ export class Line {
     }  
     
     static addLeadZeros (i : number): string {
-        var padCount =  Line.counter.toString().length
-        return _.padStart(i.toString(), padCount, "0")
+        if (!Line.padCount) {
+            Line.padCount = Line.counter.toString().length 
+        }
+        return _.padStart(i.toString(), Line.padCount, "0")
     }
 
     numbered() : string {
