@@ -34,7 +34,7 @@ https://nodejs.org
 
 5) Set up the project
 
-   $ cd scriptype
+   $ cd scriptype <br/><br/>
    $ npm install
 
 6) Fire up vs code
