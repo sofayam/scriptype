@@ -4,6 +4,7 @@
         "sourceMap": true,
         "allowJs": true,
         "outDir": "generated",
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "lib": ["es6"]
     }
 }

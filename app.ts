@@ -2,6 +2,9 @@ import * as fs  from "fs"
 import * as path from "path"
 import * as os from "os"
 import { Line } from "./classes/Line"
+import { foo } from "./testparser"
+
+foo();
 
 var objLines : Line[] = [];
 
