@@ -6,8 +6,10 @@
     "start": "node ./generated/app"
   },
   "dependencies": {
-    "@types/lodash": "*",
     "@types/node": "*",
-    "lodash": "*"
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.11",
+    "os": "^0.1.1",
+    "path": "^0.12.7"
   }
 }
